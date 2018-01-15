@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-md-8">
+            {% for column in site.data.footer %}
+            <ul class="footer-links">
+                <li>
+                    <h2>{{ column.title }}</h2>
+                </li>
+                {% for link in column.links %}
+                    <li>
+                        <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+                            {% if link.social_icon %}
+                                {% include social-icon.html icon=link.social_icon %}
+                            {% endif %}
+
+                            {{ link.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+    <div class="col-md-4">{% include signUp.html %}</div>
+</div>

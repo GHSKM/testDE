@@ -1,0 +1,30 @@
+
+        <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="{{site.baseurl}}"><img src="/logo.png" class="pull-left" alt="Divine Explorer logo"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button> 
+    <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav pull-right">
+	{% for link in site.data.navbar %}
+	{% assign class = "nav-link" %}
+		{% if link.link == page.url %}
+			{% assign class = class | append: " active" %}
+		{% endif %}
+        <li class="nav-item"><a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+</nav>
+
+<!-- <nav>       
+        {% for link in site.data.navigation %}
+        {% assign class = "" %}
+    
+            {% if link.link == page.url %}
+                {% assign class = class | append: " active" %}
+            {% endif %}
+            <a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+        {% endfor %}
+    </nav>
+     -->

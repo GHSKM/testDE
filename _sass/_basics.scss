@@ -1,0 +1,65 @@
+
+    #header-top {
+        background-color: #303030;
+        font-size: 12px;
+        width: 100%;
+        padding: 5px 0;
+        display: inline-block;
+       
+    }
+    .border-bottom
+    {
+        border-bottom: 2px solid $post-heading-color;
+    }
+    .margin-top-small
+    {
+        margin-top: 10px;
+    }
+    .margin-top-medium
+    {
+        margin-top: 20px;
+    }
+    .margin-top-large
+    {
+        margin-top: 35px;
+    }
+
+    .fullWidth
+    {
+        width:100%
+    }
+    .thinBorder
+    {
+        border: 1px grey solid;
+    }
+    
+    
+    
+    .jumboHeight{
+        height:300px;
+    }
+    
+    
+    .relativePostion
+    {
+        position: relative;
+        background-color: white;
+    }
+    
+    .paddingSmall
+    {
+        padding:5px;
+    }
+    .paddingMedium
+    {
+        padding:10px;
+    }
+    .paddingLarge
+    {
+        padding:20px;
+    }
+    
+    .fixedNav
+    {
+        position:fixed;
+    }

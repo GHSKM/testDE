@@ -1,0 +1,27 @@
+<h2 class="pageHeader">Journey Enquiries</h2>
+<p>Divine Explorer is a spiritual travel expert. We organize learning retreats and camps at locations conducive for spiritual
+    activities. Whether you are a spiritual seeker, a master or a community of spiritual seekers we take care of all your
+    travel needs and organizations. We also organize camps and retreats regularly with enlightened spiritual masters.</p>
+<form method="post" action="/contact-success.html">
+    <div class="form-group">
+    <div class="row">
+        <div class="col-md-6">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" class="form-control" placeholder="Enter name">
+        
+                <label for="email_address" class="margin-top-small">Email Address</label>
+                <input id="email_address" type="text" name="email" class="form-control" placeholder="Enter email">
+        </div>
+        <div class="col-md-6">
+            
+        <label for="message">Message</label>
+        <textarea id="message" name="message" class="form-control" placeholder="Enter message"></textarea>
+
+        <input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
+        <input type="text" name="_gotcha" style="display: none;">
+        </div>
+    </div>
+        <input type="submit" value="Send Message" class="col-md-6">
+</form>
+
+</div>

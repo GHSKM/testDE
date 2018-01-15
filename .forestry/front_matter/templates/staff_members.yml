@@ -1,0 +1,40 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- name: background_image_path
+  label: Background image path
+  type: text
+  hidden: false
+  default: "/uploads/building.jpg"
+- name: image
+  label: Image
+  type: text
+  hidden: false
+  default: "/uploads/building.jpg"
+- name: _options
+  label: " options"
+  type: field_group
+  fields:
+  - name: image
+    label: Image
+    type: field_group
+    fields:
+    - name: width
+      label: Width
+      type: text
+      hidden: false
+      default: ''
+    - name: height
+      label: Height
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
