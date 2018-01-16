@@ -14,28 +14,4 @@ categories: []
 author_staff_member: admin
 large_header: false
 ---
-<p><b>Pahalgam:</b></p>
-
-<p>Pahalgam, situated at the confluence of several streams this scenic town is also popularly known as the Valley of Shepherds. An ideal place to spend a day in serene contemplation as the soft mountain breeze serenades our senses.</p>
-
-<p><b>Sheshnag:</b></p>
-
-<p>Drive through spectacular countryside, admire traditional Kashmiri houses and be in the flow as you witness cascading waterfalls on both sides on the roads to Chandanwari. The trek to Sheshnag is up a steep incline surrounded by wild scenery untouched by civilization and commanding views of mountains and valley. Take each step up with awareness and let the beauty guide you forward with the help of friendly tea stalls to offer refreshing tea to give that extra energy. Camping at Sheshnag is a surreal experience. This glacial lake set in breathtaking surroundings has several  mythical stories, it is believed, Sheshnag Lake basically belongs to Sheshnag, the Lord of Snakes, and is said to be dug by the Lord himself.Because of its presence on the route to holy Amarnath Cave, Sheshnag Lake is also a sacred pilgrimage site.Its waters reflect the snow capped peaks of Vishnu, Shiva and Brahma.</p>
-
-<p><b>Panchtarni:</b></p>
-
-<p>Ascending towards Panchtrani is a long and tiring through flowered meadows and grassy plateaus . As we step out of our comfort zone we have just the  magnificent views to connect with and energize us to keep moving. It is believed that at <i> Panchtarni, Lord Shivji left the five elements behind (Earth, Water, Air, Fire and Sky) which make living being. He is the Lord of these elements. Panchtarni is a very beautiful place in the feet of Mount Bhairav. Upon reaching Panjtarni you can see a river split in 5 main parts in the plain. It is said that the five rivers originated from Lord Shiva’s hairs (Jata).</i></p>
-
-<p><b>Holy Cave:</b></p>
-
-<p>The Amarnath Shrine stands at the height of 3,888 m, at the end of Lidder Valley in a narrow gorge. Considered to be one of the most revered pilgrimage spots , the holy cave is the abode of Lord Shiva. The guardian of the absolute, Lord Shiva, the destroyer, is enshrined in the form of an ice-lingam in this cave. This lingam is formed naturally, which is believed to wax and wane with the moon. After the  energizing connection with the lord , in his abode, take time to assimilate the vibrational energies flowing within at Baltal situated  on the shores of the Sindh River. This small valley serves as a camping ground for the Amarnath pilgrims. Nestled at the foot of Zoji-La Pass,Baltal is known for its scenic views.</p>
-
-<p><b>Srinagar:</b></p>
-
-<p>Built along twisting waterways and terraced hillsides this beautiful city is situated along Jhelum river and is famous for its gardens lakes, houseboats and local culture. Staying in a houseboat is a unique but must do experience just as shopping for Kashmiri handicrafts. The Kheer Bhavani temple and Shankaracharya temple are both spiritually uplifting and have sacred significance.</p>
-
-<p><b>Gulmarg &amp; Sonmarg  :</b></p>
-
-<p>Gulmarg - "the meadow of flowers'' , undoubtedly blessed by Mother Nature.You can go to Khilanmarg by pony, which is a famous skiing spot. It also offers a great view of the Kashmir valley and the Himalayan range.</p>
-
-<p>Sonmarg- " the meadow of gold", Sonmarg is set amidst a valley of flowers and lakes. The exotic flora of the region is nurtured by the Sindh river.The place is frequently visited by nature lovers in the search of tranquil peace and soothing natural beauty.</p>
+<p><b>Starting from Delhi we travel up north to:</b></p> <p><b> </b><b>Haridwar</b> ( HT: 314 MTS), <b>Barkot</b>( HT:1352 MTS) , <b>Yamunotri </b>(HT: 3235 MTS) , <b>Uttarkashi</b> (HT: 1352 MTS) , <b>Gangotri</b> (HT: 3048 MTS), <b>Guptkashi</b> (HT: 1319 MTS), <b>Kedarnath</b> (HT: 3584 MTS), <b>Badrinath</b> (HT: 3133 MTS), <b>Pipalkoti </b>, <b>Kirtinagar, Rishikesh </b>and back to <b>Delhi</b> via <b>Hardwar</b>.</p> <p> The journey includes 6-7 hours of travel time each day to reach the divine destinations, on some days we would be trekking up as well.</p> <p>The pilgrimage season starts from April and lasts till November.</p> <p> </p> <p> </p>
