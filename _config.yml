@@ -33,6 +33,9 @@ collections:
   journeys:
     output: true
     permalink: /journeys/:path/
+  divine-memories:
+    output: true
+    permalink: /divine-memories/:path/
 
 defaults:
   -
