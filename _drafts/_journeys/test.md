@@ -10,4 +10,8 @@ _comments:
   image: Shown in social shares and the advice list.
 title: test
 date: 2018-01-16 00:00:00 +0000
+categories: []
+author_staff_member: ''
+large_header: false
 ---
+namaste
