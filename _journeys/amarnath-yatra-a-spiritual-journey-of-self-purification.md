@@ -11,7 +11,7 @@ _comments:
 title: Amarnath Yatra - A spiritual journey of self purification
 date: 2018-01-16 00:00:00 +0000
 categories: []
-author_staff_member: ''
+author_staff_member: admin
 large_header: false
 ---
 <p><b>Pahalgam:</b></p>
