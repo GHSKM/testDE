@@ -14,7 +14,7 @@ categories: []
 author_staff_member: admin
 large_header: false
 ---
-<p><b>Pahalgam:</b></p>
+<p><b>Pahalgam</b></p>
 
 <p>Pahalgam, situated at the confluence of several streams this scenic town is also popularly known as the Valley of Shepherds. An ideal place to spend a day in serene contemplation as the soft mountain breeze serenades our senses.</p>
 
@@ -34,7 +34,7 @@ large_header: false
 
 <p>Built along twisting waterways and terraced hillsides this beautiful city is situated along Jhelum river and is famous for its gardens lakes, houseboats and local culture. Staying in a houseboat is a unique but must do experience just as shopping for Kashmiri handicrafts. The Kheer Bhavani temple and Shankaracharya temple are both spiritually uplifting and have sacred significance.</p>
 
-<p><b>Gulmarg &amp; Sonmarg  :</b></p>
+<p><b>Gulmarg & Sonmarg  :</b></p>
 
 <p>Gulmarg - "the meadow of flowers'' , undoubtedly blessed by Mother Nature.You can go to Khilanmarg by pony, which is a famous skiing spot. It also offers a great view of the Kashmir valley and the Himalayan range.</p>
 
