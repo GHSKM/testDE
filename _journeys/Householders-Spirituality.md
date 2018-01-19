@@ -13,13 +13,7 @@ categories:
 - Rafting
 - Yoga
 journey-experience:
-- undefined: Bali’s vibrations are very conducive for spiritual growth, the island
-    has nature’s blessings in the form of mountains and the oceans representing positive
-    and negative energies. Just as these natural formations maintain harmony and balance
-    the lands, learning householders spirituality is a must for any seeker walking
-    the spiritual path. This retreat helps one  Balance spirituality with materialism
-    Harmonize our relations while being spiritual Understand the spirituality is not
-    about ‘walking away’ but about ‘being there’ Grow in abundance in all dimensions
+- undefined: Holistic Exercises
 thumbnail: "/images/DE-26-170x150.jpg"
 image: "/images/DE-26-450x300.jpg"
 guided: true
@@ -30,7 +24,7 @@ journey-description: 'House-holder''s Spirituality,&nbsp;Love and family bonding
   and Re-patterning,&nbsp;Law of Karma and beyond,&nbsp;Enlightenment – The Ultimate
   Solution'
 journey-highlights:
-- {}
+- undefined: Guided Kriya Sessions
 map-image: ''
 ---
 <p><strong>Embarking on a spiritual journey, is full of questions. What is being spiritual ? How do I fulfill my role as householder and yet be spiritual ? How do the laws of karma impact us ? What is being ‘enlightened’ ? This learning journey is specially catered for those who want to harmonize their spirituals quests into their everyday lives. It is must for every householder, every parent, every spouse, every child, every boss, every employee.</strong></p>
