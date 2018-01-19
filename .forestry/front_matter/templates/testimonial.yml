@@ -22,3 +22,7 @@ fields:
   label: excerpt_separator
   name: excerpt_separator
   default: "<!--more-->"
+- type: text
+  name: layout
+  label: Layout
+  default: default
