@@ -53,6 +53,10 @@ fields:
   - type: text
   - type: text
   - type: text
+  - type: text
+  - type: text
+  - type: text
+  - type: text
 - type: field_group
   name: journey-experiences
   label: journey-experiences
