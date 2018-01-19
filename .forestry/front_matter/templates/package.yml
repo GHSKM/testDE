@@ -40,35 +40,6 @@ fields:
   name: map-image
   label: map-image
   description: Do you have the package map?
-- type: field_group
-  name: journey-highlights
-  label: journey-highlights
-  description: Enter the journey highlights
-  fields:
-  - type: text
-    default: Holy dips in the thermal springs
-  - type: text
-    default: Ganga Arti At Har Ki Pauri
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-- type: field_group
-  name: journey-experiences
-  label: journey-experiences
-  fields:
-  - type: text
-  - type: field_group_list
-    label: dsdada
-    name: dsdada
-    fields:
-    - type: text
-      default: dasd
 - type: textarea
   default: journey-description
   label: journey-description
@@ -76,3 +47,10 @@ fields:
   config:
     wysiwyg: true
     required: true
+  fields:
+  - type: field_group_list
+    name: journey-highlights
+    label: journey-highlights
+  - type: field_group_list
+    name: journey-experiences
+    label: journey-experiences
