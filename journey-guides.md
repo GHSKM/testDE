@@ -4,7 +4,7 @@ permalink: /guides/
 ---
  <div class="row">
     {% for guide in site.guides %}
-    <div class="col-xs-12 col-sm-6 col-md-4" id="{{ include.Name | slugify }}">
+    <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="thumbnail text-center">       
             <img src= "{{ guide.thumbnail }}" alt="">
               <div class="caption">

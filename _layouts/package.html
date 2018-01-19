@@ -3,7 +3,7 @@ layout: default
 --- 
 <div class="row ">
     <div class="col-md-12">
-        <img src="{{page.image}}" alt="{{page.title}}" class="fullWidth fixedBackground jumboHeight">
+        <img src="{{site.url}}{{page.image}}" alt="{{page.title}}" class="fullWidth fixedBackground jumboHeight">
     </div>
     
 </div>
@@ -14,13 +14,13 @@ layout: default
                 
             <p><strong>{{page.journey-description}}</strong></p>
             <div id="#places-covered">
-                    <p class="text-primary"><img src="{{site.url}}/images/places_covered.png" alt="{{page.title}}"/><b>Places</b> Covered</p>
+                    <p class="text-primary"><img src="{{site.url}}images/places_covered.png" alt="{{page.title}}"/><b>Places</b> Covered</p>
                     </div>
             {{ content }}
 
             <div class="separator"></div>
             <div id="#Journey-guides">
-                    <p class="text-primary"><img src="{{site.url}}/images/spiritual_master.png" alt="{{page.title}}"/><b>Journey</b> guides</p>
+                    <p class="text-primary"><img src="{{site.url}}images/spiritual_master.png" alt="{{page.title}}"/><b>Journey</b> guides</p>
                     {% if page.guided %}
                         <p>
                                 Guruji Prem Nirmal and Guruma Bharti Ji guide us through this transforming journey as we understand how to merge materialism and spirituality and live a life of abundance.
@@ -46,7 +46,7 @@ layout: default
 
             <div class="separator"></div>
             <div id="#Journey-experience">
-                    <p class="text-primary"><img src="{{site.url}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Experience</p>
+                    <p class="text-primary"><img src="{{site.url}}images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Experience</p>
                     {% for experience in page.journey-experience %}
                     <ul>
                           <li>{{ experience }}</li>	
@@ -58,9 +58,9 @@ layout: default
         
         </div>
         <div class="col-md-4 col-xs-12 paddingSmall ">
-                <p><a href="{{site.url}}/faq" class="button" role="button"> Journey FAQ</a> </p>
+                <p><a href="{{site.url}}faq" class="button" role="button"> Journey FAQ</a> </p>
                 <p><img src="{{site.url}}/{{page.map-image}}" alt="{{page.title}}"/></p>
-                <p class="bg-gray text-primary"><img src="{{site.url}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Highlights</p>
+                <p class="bg-gray text-primary"><img src="{{site.url}}images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Highlights</p>
                 <!-- <p>{{page.journey-highlights}}</p> -->
 
                 {% for highlight in page.journey-highlights %}
