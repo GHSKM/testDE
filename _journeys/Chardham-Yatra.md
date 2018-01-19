@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Chardham Yatra (The Sacred Pilgrimage in the Garhwal Mountains )
 date: 2015-04-20 00:00:00 +0000
 author: admin
