@@ -56,6 +56,13 @@ fields:
 - type: field_group
   name: journey-experiences
   label: journey-experiences
+  fields:
+  - type: text
+  - type: text
+  - type: text
+  - type: text
+  - type: text
+  - type: text
 - type: textarea
   default: journey-description
   label: journey-description
