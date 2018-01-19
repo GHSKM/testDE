@@ -57,7 +57,22 @@ defaults:
           height: 2000
       _comments:
         image: Shown in social shares and the advice list.
-  
+  -
+    scope:
+      path: ""
+    values:
+      layout: package
+      thumbnail: "/images/amarnath-470x118.jpg"
+      image: "/images/amarnath.jpg"
+      map-image: "/images/Amarnath-route-map-470x244.jpg"
+      title: Amarnath Yatra - A spiritual journey of self purification
+      date: 2018-01-16 00:00:00 +0000
+      categories: [Pilgrimage, Popular]
+      author: admin
+      journey-highlights:
+      journey-experience:   
+      journey-description:  
+      guided: false
 
 permalink: pretty
 
