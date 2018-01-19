@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Power Packed Retreat
 date: 2015-01-28 06:45
 author: Kajal Pandey

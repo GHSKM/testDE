@@ -1,6 +1,6 @@
 ---
 layout: package 
-permalink: /Journeys/:path
+permalink: /explore/:path
 ---
 
 
