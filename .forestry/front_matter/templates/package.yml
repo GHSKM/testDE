@@ -54,3 +54,13 @@ fields:
   - type: field_group_list
     name: journey-experiences
     label: journey-experiences
+- type: field_group_list
+  label: journey-highlights
+  name: journey-highlights
+  fields:
+  - type: text
+- type: field_group_list
+  fields:
+  - type: text
+  label: journey-experience
+  name: journey-experience
