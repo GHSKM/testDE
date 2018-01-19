@@ -2,7 +2,7 @@
 layout: post
 title: Smooth and Hassle Free
 date: 2015-01-28 06:48
-author: admin
+author: Basant Pandey
 comments: true
 excerpt_separator: <!--more-->
 categories: [Divine Memories]

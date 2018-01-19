@@ -1,16 +1,15 @@
 <div class="row">
     <div class="col-md-12">
-        <h3 class="primary-color border-bottom-thick"><b>Divine Memories</b></h3>
+        <h2 class="text-primary border-bottom-thick paddingMedium "><b>Divine Memories</b></h2>
     </div>
 </div>
 
 <div class="row">    
-        {% for memory in site.divine-memories | limit: 3 %}
-       
-                <div class="col-md-12" id="{{ include.Name | slugify }}">
-              
-                    <h4> <b> {{ memory.title }} </b></h4>
-                     <h5>  {{ memory.excerpt  }}</h5>   
+        {% for memory in site.divine-memories | limit: 3 %}       
+                <div class="col-md-12" id="{{ include.Name | slugify }}">              
+                    <div class="text-secondary"> <b> {{ memory.title }} </b></div>
+                     <p> {{ memory.excerpt  }}</p>   
+                     <p> - {{ memory.author  }}</p>   
                 </div>
     {% endfor %}
     <p><a href="{{site.url}}/divine-memories" class="button" role="button">View More</a> </p>

@@ -4,12 +4,11 @@
       link: /
     - name: About
       link: /about/
-    - name: Services
-      link: /services/
-    - name: Contact
-      link: /contact/
-    - name: Advice
-      link: /advice/
+    - name: Explore
+      link: /explore/
+    - name: Guides
+      link: /guides/
+    
 - title: Social
   links:
     - name: Facebook

@@ -2,7 +2,7 @@
 layout: post
 title: Full of Positive Vibes
 date: 2015-01-28 06:46
-author: admin
+author: Shilpa Mahatre
 comments: true
 excerpt_separator: <!--more-->
 categories: [Divine Memories]

@@ -2,7 +2,7 @@
 layout: post
 title: Beautifully Organised
 date: 2015-01-28 06:47
-author: admin
+author: Anupama Shah
 comments: true
 excerpt_separator: <!--more-->
 categories: [Divine Memories]

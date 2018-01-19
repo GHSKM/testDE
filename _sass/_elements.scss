@@ -56,9 +56,9 @@ textarea {
   	align-items: flex-end;
 	margin: 0;
 	font-size: 1em;
-	margin-top: 10px;
- 	padding-top: 10px;
-	padding-bottom: 10px;
+	// margin-top: 10px;
+ 	// padding-top: 10px;
+	// padding-bottom: 10px;
 	
 	&:hover {
 		background:$brand-primary;
@@ -74,15 +74,15 @@ textarea {
 .button {
     display: inline-block;
     margin: 0.5em;
-    padding: 0.7em 1.1em;
+    padding: 10px;
     outline: none;
     border: 3px solid $brand-primary;
     color:$brand-primary;
     text-decoration: none;
     font-weight: 600;
     opacity: 1;
-    -webkit-transition: all 0.2s;
-	transition: all 0.2s;
+    -webkit-transition: all 0.4s;
+	transition: all 0.4s;
 
 	&:hover {
 		background:$brand-primary;
@@ -112,13 +112,12 @@ a{
 	.nav-link
 	{
 		color : $sub-link-color;
-		font-size : 2.4rem;
+		font-size : 2.4em;
 		&:hover {
 			color: $brand-primary;
 			background-color: none;
 		}
-		&:hover {
-			
+		&:hover {			
 			background-color: none;
 		}
 	}
@@ -142,19 +141,19 @@ a{
 }
 
 
-.contain {
-	border: 0;
-	background: 0;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+// .contain {
+// 	border: 0;
+// 	background: 0;
+// 	padding: 0;
+// 	margin: 0;
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: space-between;
 
-	.split {
-		flex: 0 0 380px;
-	}
-}
+// 	.split {
+// 		flex: 0 0 380px;
+// 	}
+// }
 
 select {
 	width: 100%;
@@ -172,9 +171,9 @@ select {
 {
 	height:7px;
 	width:100%;
-	border-bottom: 1px dotted #404040;
+	border-bottom: 2px dotted #404040;
 }
 
-.list li{
+ul li{
 	padding-bottom: 20px;
 }

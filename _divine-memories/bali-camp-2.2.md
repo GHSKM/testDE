@@ -2,7 +2,7 @@
 layout: post
 title: Special Moment of Grace
 date: 2015-01-28 06:49
-author: admin
+author: Lalitha and Ramdass
 comments: true
 excerpt_separator: <!--more-->
 categories: [Divine Memories]

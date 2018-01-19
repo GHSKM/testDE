@@ -1,8 +1,6 @@
 ---
-layout: journeys
+layout: package 
 permalink: /Journeys/:path
-class: license-types
-title: All Journey
 ---
 
 

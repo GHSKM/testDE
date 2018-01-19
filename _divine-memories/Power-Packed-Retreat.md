@@ -2,7 +2,7 @@
 layout: post
 title: Power Packed Retreat
 date: 2015-01-28 06:45
-author: admin
+author: Kajal Pandey
 comments: true
 excerpt_separator: <!--more-->
 categories: [Divine Memories]
