@@ -21,7 +21,9 @@ journey-description: One of the most spiritually significant and divine journeys
   the beauty of the snow-clad magnificent Himalayas and absorb the Hindu culture and
   its significance.
 journey-highlights:
-- undefined: lnlkjlkjlkj
+- {}
+- undefined: Holy dips in the thermal springs
+- undefined: Meditate at the Divya Shila
 journey-experiences:
   undefined: dsfsdfsdfdsf
   dsdada:
