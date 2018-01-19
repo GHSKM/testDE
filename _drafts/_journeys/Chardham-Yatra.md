@@ -21,6 +21,18 @@ journey-description: One of the most spiritually significant and divine journeys
   the beauty of the snow-clad magnificent Himalayas and absorb the Hindu culture and
   its significance.
 journey-highlights:
+- undefined: Visits to... Chandi Devi Temple Mansa Devi Temple Daksha Mahadev Temple
+    Kempty Falls Vishwanath Temple Shakti Temple Gangotri Temple Ardh Narishwar Temple
+    Kedarnath Temple Sheshnetra ( a boulder having an impression of the legendary
+    serpent) Charanpaduka (a beautiful meadow where the footprint of Lord Vishnu is
+    seen on a boulder) Mata Murty Temple Urvashi Temple Mana Village ( Indo-Mongolian
+    tribe) Vasundhara Falls Bhim Pul ( A massive rock forming a natural bridge) Vyas
+    Gufa ( Cave ) Badrivishal Temple Laxman Jhulla ,Ram Jhulla Treveni Ghat, Bharat
+    Mandir, Shivananda Ashram
+- undefined: Ganga Arti at Parmath Ashram
+- undefined: Trek form Gaurikund to Kedarnath
+- undefined: Dip in Holy Ganga River
+- undefined: Drive Through Harsil Valley
 - undefined: Ganga Arti At Har Ki Pauri
 - undefined: Holy dips in the thermal springs
 - undefined: Meditate at the Divya Shila
