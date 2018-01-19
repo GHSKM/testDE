@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Enlightenment Intensive Retreat
 date: 2015-01-28 06:44
 author: Anupama Shah

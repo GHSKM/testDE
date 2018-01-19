@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My Bali Experience
 date: 2015-01-28 07:09
 author: admin

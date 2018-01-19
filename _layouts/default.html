@@ -6,73 +6,29 @@
 <body>
 	{% include header.html %}
 	<div class="container">
-	<section class="main">
+	<section>
 		
 			{{ content }}
 		
 	</section>
 
-	<div class="container bg-secondary">
+	<div class="container bg-gray">
 		<div class="row">
 			<div class="col-md-8">{% include enquiry.html %}</div>
-			<div class="col-md-4">	
-		
-				<label class="margin-top-large">Email Address</label>
-				<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
-		
-			
+			<div class="col-md-4">			
+				<!-- <label class="margin-top-large">Email Address</label> -->
+				
 				<label>Address</label>
 				<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address></div>
+				<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 		</div>
 	</div>
-
-
 	<footer>
 		<div class="container">
 			{% include footer.html %}
 		</div>
 	</footer>
-
-	<!-- <div class="footer-columns">
-					{% for column in site.data.footer %}
-						<ul class="footer-links">
-							<li>
-								<h2>{{ column.title }}</h2>
-							</li>
-							{% for link in column.links %}
-								<li>
-									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-										{% if link.social_icon %}
-											{% include social-icon.html icon=link.social_icon %}
-										{% endif %}
-
-										{{ link.name }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					{% endfor %}
-
-					<ul class="footer-links">
-						<li>
-							<h2>{{ site.data.company.title }}</h2>
-						</li>
-						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="legal-line">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
-					<a href="{{ site.baseurl }}/terms/">Terms</a>
-					&bull;
-					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
-				</p>
-			</div> -->
 		</div>
 </body>
-
 {% include scripts.html %}
 </html>
