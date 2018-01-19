@@ -1,4 +1,6 @@
 ---
+pages:
+- _journeys/Chardham-Yatra.md
 hide_body: false
 fields:
 - type: text
