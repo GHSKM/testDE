@@ -1,0 +1,56 @@
+---
+hide_body: false
+fields:
+- type: text
+  default: title
+  label: title
+  name: title
+  description: Enter the title for the package
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YY-MM-DD
+  default: Invalid date
+- type: file
+  name: thumbnail
+  label: thumbnail
+  description: Enter the thumbnail
+- type: file
+  name: image
+  label: Image
+  description: Enter the path for the full image
+- type: boolean
+  name: guided
+  label: guided
+  description: Is it a guided journey
+- type: tag_list
+  name: category
+  label: category
+  description: What category does this package fall into?
+- type: text
+  name: author
+  label: author
+  description: Who is posting this ?
+  config:
+    required: true
+- type: file
+  name: map-image
+  label: map-image
+  description: Do you have the package map?
+- type: field_group
+  name: journey-highlights
+  label: journey-highlights
+  description: Enter the journey highlights
+- type: field_group
+  name: journey-experiences
+  label: journey-experiences
+- type: textarea
+  default: journey-description
+  label: journey-description
+  name: journey-description
+  config:
+    wysiwyg: true
+    required: true
