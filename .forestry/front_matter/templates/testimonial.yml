@@ -1,0 +1,18 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: Author
+- type: text
+  label: title
+  name: title
+- type: tag_list
+  name: categories
+  label: categories
+  default:
+  - Divine Memories
+- type: datetime
+  name: date
+  label: Date
+  description: Date of adding the testimonial
