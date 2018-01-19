@@ -18,3 +18,7 @@ fields:
   name: date
   label: Date
   description: Date of adding the testimonial
+- type: text
+  label: excerpt_separator
+  name: excerpt_separator
+  default: "<!--more-->"
