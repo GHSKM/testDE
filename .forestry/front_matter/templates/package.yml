@@ -63,11 +63,12 @@ fields:
   label: journey-experiences
   fields:
   - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
-  - type: text
+  - type: field_group_list
+    label: dsdada
+    name: dsdada
+    fields:
+    - type: text
+      default: dasd
 - type: textarea
   default: journey-description
   label: journey-description
