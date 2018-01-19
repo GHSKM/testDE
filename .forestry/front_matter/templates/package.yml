@@ -48,6 +48,7 @@ fields:
   - type: text
     default: Holy dips in the thermal springs
   - type: text
+    default: Ganga Arti At Har Ki Pauri
   - type: text
   - type: text
   - type: text
