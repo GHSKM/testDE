@@ -44,6 +44,9 @@ fields:
   name: journey-highlights
   label: journey-highlights
   description: Enter the journey highlights
+  fields:
+  - type: text
+    default: Holy dips in the thermal springs
 - type: field_group
   name: journey-experiences
   label: journey-experiences
