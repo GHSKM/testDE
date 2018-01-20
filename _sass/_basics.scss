@@ -6,10 +6,6 @@
         display: inline-block;
        
     }
-    .primary-color
-    {
-        color: $brand-primary;
-    }
     .border-bottom
     {
         border-bottom: 2px solid $sub-link-color;
@@ -50,15 +46,15 @@
         position: relative;
         background-color: white;
     }
-    .paddingSmall
+    .padding-Small
     {
         padding:5px;
     }
-    .paddingMedium
+    .padding-Medium
     {
         padding:10px;
     }
-    .paddingLarge
+    .padding-Large
     {
         padding:20px;
     }
@@ -179,10 +175,10 @@
             color: #DDDDDD;
           }
           
-          .text-primary, .text-primary:hover {
+        .text-primary, .text-primary:hover {
             color: $brand-primary !important;
           }
-          .text-secondary, .text-secondary:hover {
+         .text-secondary, .text-secondary:hover {
             color: $brand-secondary !important;
           }
           

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Smooth and Hassle Free
 date: 2015-01-28 06:48
 author: Basant Pandey

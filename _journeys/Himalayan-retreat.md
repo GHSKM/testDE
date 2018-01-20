@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Himalayan Retreat - Journey from self to SELF
 date: 2015-01-17 10:56
 author: admin

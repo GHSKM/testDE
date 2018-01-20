@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Karmakshalan Camp
 date: 2015-01-17 11:23
 author: admin

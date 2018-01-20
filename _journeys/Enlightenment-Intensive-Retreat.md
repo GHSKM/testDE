@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Enlightenment Intensive Retreat
 date: 2015-01-17 10:55
 author: admin

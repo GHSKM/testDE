@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Navagraha Temple Pilgrimage
 date: 2015-01-15 11:20
 author: admin

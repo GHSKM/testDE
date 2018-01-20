@@ -1,14 +1,14 @@
 <div class="row">
     <div class="col-md-12">
-        <h2 class="text-primary border-bottom-thick paddingMedium "><b>Divine Memories</b></h2>
+        <h2 class="text-primary border-bottom-thick padding-small "><b>Divine Memories</b></h2>
     </div>
 </div>
 
 <div class="row">    
-        {% for memory in site.divine-memories | limit: 3 %}       
+        {% for memory in site.divine-memories | limit: 2 %}       
                 <div class="col-md-12" id="{{ include.Name | slugify }}">              
-                    <div class="text-secondary"> <b> {{ memory.title }} </b></div>
-                     <p> {{ memory.excerpt  }}</p>   
+                    <div class="text-secondary"> <b><h3>{{ memory.title }}</h3></b></div>
+                     <h4>{{ memory.excerpt  }}</h4>
                      <p> - {{ memory.author  }}</p>   
                 </div>
     {% endfor %}
