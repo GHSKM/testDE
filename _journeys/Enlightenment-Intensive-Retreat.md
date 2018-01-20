@@ -16,11 +16,18 @@ journey-description: 'What is Enlightenment?<br>Secrets of sustained Enlightenme
   indirect – Experience-less Experience)  '
 thumbnail: ''
 image: ''
-guided: false
+guided: true
 category: []
 map-image: ''
 journey-experience: []
-journey-highlights: []
+journey-highlights:
+- undefined: Visits to  Arunachalam Temple, Ramana Maharishi Ashram, Ashta Lingam
+    Temples, Yogi Ram Surat Kumar Ashram
+- undefined: Meditate at Ramana Ashram
+- undefined: Meditate in the caves of Ramana
+- undefined: Circumambulate the sacred hills, Arunachaleswar
+- undefined: Learning Sessions by enlightened Masters Guruji Prem Nirmal and Guruma
+    Bhartiji
 ---
 <p>Questions and answers that move your very being.  This unique learning module makes one question our own belief systems, redefines values that have shaped our lives and takes us closer to the truth about ourselves. With the grace of the masters one learns to understand what ‘enlightenment’ truly means and ways to sustain this powerful state of existence.</p>
 <p> <strong>Tiruvannamalai : </strong>The Spiritual capital of South India, this is a unique temple-mountain town. World famous for its strong spiritual energies Tiruvannamalai attracts seekers from all over the world. Worship Shiva in his fire incarnation at the Arunachaleshwar Temple, or circumnavigate the famous Arunachala Hills as purifying ritual known as Girivalam or visit the ashram of the famous saint who spread self-enquiry -Maharishi Ramana, each experience is truly divine and enriching.</p>
