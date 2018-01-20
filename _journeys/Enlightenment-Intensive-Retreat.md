@@ -1,5 +1,5 @@
 ---
-layout: package
+layout: post
 title: Enlightenment Intensive Retreat
 date: 2015-01-17 00:00:00 +0000
 author: admin
@@ -15,23 +15,23 @@ journey-description: 'What is Enlightenment?<br>Secrets of sustained Enlightenme
   to Liberation)<br><em>Nirvikalpa Samadhi</em> – <em>Ek Aparoksha Anubhuti</em> (An
   indirect – Experience-less Experience)  '
 thumbnail: ''
-image: ''
+image: "/images/Tiruvannamalai_Main.jpg"
 guided: true
 category: []
 map-image: ''
 journey-experience:
--  The strong spiritual vibrations at Tiruvannamalai elevate us to different
+- undefined: The strong spiritual vibrations at Tiruvannamalai elevate us to different
     energy level. Temple visits, the girivalam ritual and satsangs ( spiritual discourses)
     purify us and prepares us to receive wisdom that transform the way we live and
     think.  Break out of your comfort zone and clutching belief systems Heal your
     self sabotaging patterns Learn to surrender and invite divine grace
 journey-highlights:
--  Visits to  Arunachalam Temple, Ramana Maharishi Ashram, Ashta Lingam
+- undefined: Visits to  Arunachalam Temple, Ramana Maharishi Ashram, Ashta Lingam
     Temples, Yogi Ram Surat Kumar Ashram
--  Meditate at Ramana Ashram
--  Meditate in the caves of Ramana
--  Circumambulate the sacred hills, Arunachaleswar
--  Learning Sessions by enlightened Masters Guruji Prem Nirmal and Guruma
+- undefined: Meditate at Ramana Ashram
+- undefined: Meditate in the caves of Ramana
+- undefined: Circumambulate the sacred hills, Arunachaleswar
+- undefined: Learning Sessions by enlightened Masters Guruji Prem Nirmal and Guruma
     Bhartiji
 ---
 <p>Questions and answers that move your very being.  This unique learning module makes one question our own belief systems, redefines values that have shaped our lives and takes us closer to the truth about ourselves. With the grace of the masters one learns to understand what ‘enlightenment’ truly means and ways to sustain this powerful state of existence.</p>
