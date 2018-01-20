@@ -19,7 +19,12 @@ image: ''
 guided: true
 category: []
 map-image: ''
-journey-experience: []
+journey-experience:
+- undefined: The strong spiritual vibrations at Tiruvannamalai elevate us to different
+    energy level. Temple visits, the girivalam ritual and satsangs ( spiritual discourses)
+    purify us and prepares us to receive wisdom that transform the way we live and
+    think.  Break out of your comfort zone and clutching belief systems Heal your
+    self sabotaging patterns Learn to surrender and invite divine grace
 journey-highlights:
 - undefined: Visits to  Arunachalam Temple, Ramana Maharishi Ashram, Ashta Lingam
     Temples, Yogi Ram Surat Kumar Ashram
