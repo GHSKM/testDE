@@ -253,7 +253,43 @@ ul li{
 
 .thumbnail
 {
-	box-shadow: #333 2px ;
+	border-top: 6px solid $brand-secondary;
+	background-color: #fff;
+  margin: 0 1rem 0 0;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: .375rem;
+  padding: 0 1.5rem 3rem
 }
 
 	
+
+//Alternate Design
+
+nav.alt {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: rgba(255, 255, 255, .9);
+	z-index: 999;
+
+	a {
+		display: inline-block;
+		text-decoration: none;
+		padding: 20px 15px;
+		color:$brand-primary;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 1em;
+
+		&.active {
+			color:$brand-secondary;
+		
+		}
+
+		&:hover {
+			color: #888;
+			border-bottom: 3px solid $brand-primary;
+		}
+	}
+}

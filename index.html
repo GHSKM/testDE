@@ -1,28 +1,63 @@
 ---
 layout: default 
-call_to_action: Contact
-background_image_path:
-large_header: true
 ---
-
 <div class="row padding-Large">
-  <div class="col-md-12 ">
+  <div class="col-md-12">
     <h2 class="text-primary text-center"><b>Who is Divine Explorer</b></h2>
     <h4>We are team of spiritual seekers who combine learning spiritual wisdom with travel as we explore sacred energy spots
       or new destinations with a purpose to grow in wisdom.We invite you to become a part of Divine Explorer as you join
       our travels and become a part of creating a more conscious society.</h4>
   </div>
 </div>
-<div class="row padding-Large">
+<!-- <div class="row padding-Large">
   <div class="col-md-12 ">
     <h1>Journey Placeholder</h1>
+  </div>
+</div> -->
+<div class="border-bottom"></div>
+
+<div class="row" id="allPackages">
+  <div class="col-md-12 text-primary">
+    <h2>Popular</h2> 
+  
+   <a href="{{site.baseurl}}explore" class="button pull-right hidden-sm" role="button">View More</a>
+   </div> </div>
+<div class="row" id="#Popular">
+  <div class="col-md-12">
+      {% include all-packages.html category="Popular" limit="3" IsGuided="false" %}
   </div>
 </div>
 <div class="border-bottom"></div>
 
+<div class="row" id="allPackages">
+  <div class="col-md-12 text-primary">
+    <h2>Guided</h2> 
+  
+   <a href="{{site.baseurl}}explore" class="button pull-right hidden-sm" role="button">View More</a>
+   </div> </div>
+<div class="row" id="#Guided">
+    <div class="col-md-12">
+        {% include all-packages.html category="Popular" limit="3" IsGuided="true" %}
+    </div>
+  </div>
+  <div class="border-bottom"></div>
+  
+<div class="row" id="allPackages">
+  <div class="col-md-12 text-primary">
+    <h2>Self-Guided</h2> 
+  
+   <a href="{{site.baseurl}}explore" class="button pull-right hidden-sm" role="button">View More</a>
+   </div> </div>
+  <div class="row" id="#Self-Guided">
+      <div class="col-md-12">
+          {% include all-packages.html category="Popular" limit="3" IsGuided="false" %}
+      </div>
+    </div>
+    <div class="border-bottom"></div>
+
 <div class="row padding-Large">
   <div class="col-md-7 ">
-      <h2 class="text-primary border-bottom-thick"><b>Why Spiritual Journeys</b></h2>
+      <h2 class="text-primary border-bottom-thick padding-Medium"><b>Why Spiritual Journeys</b></h2>
     <div class="row">
       <div class="col-md-6"><img src="{{site.baseurl}}images/why_sp_travel.jpg"></div>
       <div class="col-md-6 padding-small"><ul>

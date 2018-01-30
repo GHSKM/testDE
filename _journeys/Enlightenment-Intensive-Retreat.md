@@ -14,10 +14,9 @@ journey-description: 'What is Enlightenment?<br>Secrets of sustained Enlightenme
   / Dynamics of “Divine Grace” (Guru-Kripa)<br>Atma-vyapti to Shiv-vyapti (Enlightenment
   to Liberation)<br><em>Nirvikalpa Samadhi</em> – <em>Ek Aparoksha Anubhuti</em> (An
   indirect – Experience-less Experience)  '
-thumbnail: ''
-image: ''
+thumbnail: "/images/babaji-cave-170x150.jpg"
+image: "/images/babaji-cave.jpg"
 guided: true
-category: []
 map-image: ''
 journey-experience:
 -  The strong spiritual vibrations at Tiruvannamalai elevate us to different

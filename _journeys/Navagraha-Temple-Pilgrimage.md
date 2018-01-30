@@ -1,9 +1,21 @@
 ---
 layout: package
+thumbnail: "/images/navgraha-470x121.jpg"
+image: "/images/navgraha.jpg"
+map-image: ""
 title: Navagraha Temple Pilgrimage
-date: 2015-01-15 11:20
+date: 2018-01-16 00:00:00 +0000
 author: admin
-comments: true
+journey-highlights:
+  -  A visit to the temples dedicated to the sacred energy spots of the nine celestial bodies.
+  -  Visits to Surya (Sun) Suryanar Koil, Ragu / Tirunageswaram,Sevvai      (Mars) Vaitheeswaran Koil, Chandran (Moon) Thingaloor, Sani (Saturn) Thirunallar, Sukran (Venus) Kanchanur,Kethu / Keezha perumpallam,Guru (Jupiter) / Alangudi,Budhan (Mercury) Thiruvengadu  
+journey-experience: 
+  -  See the magnificent carvings and architecture of these ancient temples dedicated to the sacred energy spots of  the nine celestial bodies. Understand the history and  engage in the stories behind each of the temple. As you hear the stories you make connections with your own life experiences and patterns. Praying at these temples with awareness and understanding helps us release our own patterns as we recognize them, leading us towards a more transformed life.
+journey-description:
+- What are the Navagrahas ( celestial body) ? How do they influence our     existence.Learn about what each Navgraha (celestial body) represents
+    The benefits of worshipping each of the Navagraha ( celestial body)
+    Understand about the reflections of cosmic forces in your own consciousness
+guided: false
 categories: [Pilgrimage, Sacred Ceremony, Temples]
 ---
 <p>Launch on a odyssey of the galaxy to circumambulate the Temples dedicated to the 9 Planets the Navagrahas or the 9 celestial bodies.</p>

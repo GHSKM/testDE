@@ -4,24 +4,24 @@
     travel needs and organizations. We also organize camps and retreats regularly with enlightened spiritual masters.</p>
 <form method="post" action="/contact-success.html">
     <div class="form-group">
-    <div class="row">
-        <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-6">
                 <label for="name">Name</label>
                 <input id="name" type="text" name="name" class="form-control" placeholder="Enter name">
-        
+
                 <label for="email_address" class="margin-top-small">Email Address</label>
                 <input id="email_address" type="text" name="email" class="form-control" placeholder="Enter email">
-        </div>
-        <div class="col-md-6">
-            
-        <label for="message">Message</label>
-        <textarea id="message" name="message" class="form-control" placeholder="Enter message"></textarea>
+            </div>
+            <div class="col-md-6">
 
-        <input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
-        <input type="text" name="_gotcha" style="display: none;">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Enter message"></textarea>
+
+                <input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
+                <input type="text" name="_gotcha" style="display: none;">
+            </div>
         </div>
-    </div>
         <input type="submit" value="Send Message" class="col-md-6">
+    </div>
 </form>
 
-</div>
