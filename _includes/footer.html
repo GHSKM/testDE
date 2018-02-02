@@ -1,15 +1,14 @@
-<div class="row bg-secondary txt-white">
+<div class="row bg-black txt-white padding-Medium">
     <div class="col-md-8">
-            {% for column in site.data.footer %}
-                        
-                {% for link in column.links %}
-                   
-                        <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon text-white"{% endif %}>
+            {% for column in site.data.footer %}                        
+                {% for link in column.links %}                   
+                        <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon text-white padding-Top-Medium"{% endif %}>
                             {% if link.social_icon %}
                                 {% include social-icon.html icon=link.social_icon %}
                             {% endif %}
                             {{ link.name }}
                         </a>
+        </br>
                     
                 {% endfor %}
          

@@ -40,13 +40,16 @@
     
     .jumboHeight{
         height:400px;
-        width:80%;
+        
     }
     .relativePostion
     {
         position: relative;
         background-color: white;
     }
+.padding-Top-Medium {
+    padding-top: 40px;
+}
 
     .padding-Top-Large
     {
@@ -216,3 +219,20 @@
             background-position: top;
             background-size: cover;
         }
+
+.pull-left
+{
+    padding-left:0px;
+    margin-left:-30px;
+}
+
+.normal-text {
+    text-decoration: none;
+    color: $brand-primary;
+
+
+    &:hover {
+        text-decoration: none;
+        color: $brand-primary;
+    }
+}

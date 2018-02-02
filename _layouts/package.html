@@ -3,14 +3,14 @@ layout: default
 --- 
 <div class="row ">
     <div class="col-md-12">
-        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" class="fullWidth fixedBackground jumboHeight">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" class="fullWidth jumboHeight">
     </div>
     
 </div>
 <hr>
-<div class="container margin-bottom-small">
+<div class="margin-bottom-small">
     <div class="row relativePostion">
-         <div class="col-md-8 thinBorder padding-Large">
+         <div class="col-md-8 thinBorder padding-Large section-a">
                 
             <p><strong>{{page.journey-description}}</strong></p>
             <div id="#places-covered">
@@ -59,7 +59,9 @@ layout: default
         </div>
         <div class="col-md-4 col-xs-12 padding-Small ">
                 <p><a href="{{site.baseurl}}/faq" class="button" role="button"> Journey FAQ</a> </p>
+            {% if page.map-image %}
                 <p><img src="{{site.baseurl}}/{{page.map-image}}" alt="{{page.title}}"/></p>
+            {% endif %}
                 <p class="bg-gray text-primary"><img src="{{site.baseurl}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Highlights</p>
                 <!-- <p>{{page.journey-highlights}}</p> -->
 
