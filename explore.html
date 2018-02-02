@@ -6,7 +6,7 @@ permalink: /explore/
     {% for journey in site.journeys %}
     <div class="col-xs-12 col-sm-6 col-md-4 section-a" id="{{ include.Name | slugify }}">
           <div class="thumbnail text-center">       
-            <img src= "{{ journey.thumbnail }}" alt="">
+            <img src= "{{site.baseurl}}{{ journey.thumbnail }}" alt="">
               <div class="caption">
                 <h4 class="text-primary"> <b>{{ journey.title }}</b> </h4>                           
                   <p>{{ journey.excerpt }}</p>

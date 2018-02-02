@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: package
 title: Enlightenment Intensive Retreat
 date: 2015-01-17 00:00:00 +0000
 author: admin
