@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Special Moment of Grace
 date: 2015-01-28 06:49
 author: Lalitha and Ramdass

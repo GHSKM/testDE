@@ -18,17 +18,16 @@
         <div class="margin-top-medium bg-gray section-d">
             <div class="row">
                 <div class="col-md-8">{% include enquiry.html %}</div>
-                <div class="col-md-4">
-                    <!-- <label class="margin-top-large">Email Address</label> -->
-
+                <div class="col-md-4 padding-Small">
                     <label>Address</label>
-                    <address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
+                    <address>{{ site.data.company.address | replace: ',', '<br>' }}</address>
+                    <p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
                 </div>
-                <p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+                
             </div>
         </div>
         <footer>
-            <div class="section-d">
+            <div>
                 {% include footer.html %}
             </div>
         </footer>

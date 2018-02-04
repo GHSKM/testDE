@@ -1,4 +1,5 @@
 ---
+layout: default
 title: My Inner Transformation in South India
 date: 2015-01-28 07:04
 author: admin

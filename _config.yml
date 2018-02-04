@@ -2,21 +2,21 @@
 # Site
 
 title: Divine Explorer
-url: "https:ghskm.github.io/testDE/"
+url: "https:ghskm.github.io/testDE"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
-
+newsletter_action: "https://Augustwebsolutions.us17.list-manage.com/subscribe/post?u=e5156bc6b62aea6436d56bac0&amp;id=74d98af065"
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /logo.png
-description: Jekyll template with example content for a law firm.
+description: Explore the Divine within.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Divine Explorer
   links:
     - https://github.com/CloudCannon/justice-jekyll-template
 

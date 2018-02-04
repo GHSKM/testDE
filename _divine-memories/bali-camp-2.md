@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Beautifully Organised
 date: 2015-01-28 06:47
 author: Anupama Shah

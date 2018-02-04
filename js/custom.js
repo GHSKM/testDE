@@ -31,22 +31,20 @@ console.log("in scroll");
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
-    sr.reveal('.section-a', {
-        duration: 2000,
+    sr.reveal('.sr-icons', {
+        duration: 600,
+        scale: 0.3,
         distance: '0px'
     }, 200);
-    sr.reveal('.section-b', {
-        duration: 2000,
+    sr.reveal('.sr-button', {
+        duration: 1000,
         delay: 200
     });
-    sr.reveal('.section-c', {
-        duration: 2000,
+    sr.reveal('.sr-contact', {
+        duration: 600,
+        scale: 0.3,
         distance: '0px'
     }, 300);
-    sr.reveal('.section-d', {
-        duration: 2000,
-        distance: '0px'
-    }, 200);
 
    
 })(jQuery); // End of use strict
