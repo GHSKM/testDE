@@ -1,12 +1,12 @@
 ---
 - name: Home
   link: "/"
-- name: About Us
+- name: About
   link: "/about/"
 - name: Explore
   link: "/explore/"
-- name: Journey Guides
+- name: Guides
   link: "/guides/"
-- name: Why Spiritual Journeys
+- name: Why
   link: "/why-spiritual-journeys/"
 

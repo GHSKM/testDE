@@ -9,23 +9,24 @@
         <div class="row padding-Top-Large">
             <div class="container padding-Medium"><a href="{{site.baseurl}}"><img src="{{ site.baseurl }}/logo.png" alt="Divine Explorer logo" class="center-block img-responsive" /></a></div>
         </div>
-        <section>
+        <section id ="main">
 
             {{ content }}
 
         </section>
-
+        <section id="company-address">
         <div class="margin-top-medium bg-primary text-white section-d">
             <div class="row">
                 <div class="col-md-8">{% include enquiry.html %}</div>
                 <div class="col-md-4 padding-Small">
                     <label>Address</label>
                     <address>{{ site.data.company.address | replace: ',', '<br>' }}</address>
-                    <p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+                    <h4><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></h4>
                 </div>
                 
             </div>
         </div>
+        </section>
         <footer>
             <div>
                 {% include footer.html %}

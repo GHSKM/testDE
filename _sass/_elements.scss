@@ -88,6 +88,30 @@ textarea {
 a{
 	text-decoration: none;
 }
+
+#Enquiry input[type=submit] {
+		display: inline-block;
+    margin: 0.5em 0;
+    padding: 0.9em 1.2em;
+    border: 3px solid $brand-primary;
+    color: $brand-primary;
+    &:hover {
+				border-color: $brand-secondary;
+				background-color:#fff;
+        color: $brand-secondary;
+        text-decoration: none;
+    }
+
+}
+	#company-address a, footer a{
+		color:#fff;
+
+		&:hover{
+			color:white;
+			
+		}
+	}
+
 // input[type="submit"] {
 // 	margin-top: 10px;
 // 	padding-top: 10px;
@@ -286,7 +310,7 @@ nav.alt {
 	a {
 		display: inline-block;
 		text-decoration: none;
-		padding: 20px 15px;
+		padding: 15px 10px;
 		color:$brand-primary;
 		text-transform: uppercase;
 		letter-spacing: 1px;
