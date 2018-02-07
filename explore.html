@@ -2,7 +2,7 @@
 layout: default
 permalink: /explore/
 ---
- <div class="row">
+  <div class="row">
     {% for journey in site.journeys %}
     <div class="col-xs-12 col-sm-6 col-md-4 section-a" id="{{ include.Name | slugify }}">
           <div class="thumbnail text-center">       
@@ -15,4 +15,8 @@ permalink: /explore/
           </div>
         </div>
 {% endfor %}
-</div>
+</div> 
+
+   <!-- {% include all-packages.html category="Divine"  IsGuided="" %}
+     {% include all-packages.html category="Popular"  IsGuided="" %}
+       {% include all-packages.html category="Pilgrimage"  IsGuided="" %} -->

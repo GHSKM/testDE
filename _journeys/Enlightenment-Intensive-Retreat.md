@@ -4,7 +4,7 @@ title: Enlightenment Intensive Retreat
 date: 2015-01-17 00:00:00 +0000
 author: admin
 comments: true
-categories: [Popular]
+categories: [Divine,Popular]
 tags: [Popular,Temples,Meditate,Lessons]
 journey-description: What is Enlightenment?<br>Secrets of sustained Enlightenment
   / Dynamics of “Divine Grace” (Guru-Kripa)<br>Atma-vyapti to Shiv-vyapti (Enlightenment

@@ -1,8 +1,9 @@
 ---
 layout: default 
 ---
-
-<div class="row  ">
+<div class="container">
+<section id="hero">
+<div class="row">
   <div class="col-md-8">
       <img src="{{ site.baseurl }}/images/HeaderMain.png" alt="Divine Explorer" class="img-responsive jumboHeight fullWidth"/>
     
@@ -14,6 +15,7 @@ layout: default
       our travels and become a part of creating a more conscious society.</h4>
   </div>
 </div>
+</section>
 <!-- <div class="row padding-Large">
   <div class="col-md-12 ">
     <h1>Journey Placeholder</h1>
@@ -74,7 +76,11 @@ layout: default
             </div>
         </div>
         <div class="col-md-4 padding-Medium box">
-            {% include divine-memory.html %}
+            {% include divine-memory.html limit="2"%}
+            <div class="container">
+   <a href="divine-memories" class="button" role="button">View More</a> 
+    </div>
         </div>
     </div>
 </section>
+</div>
