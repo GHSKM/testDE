@@ -14,11 +14,11 @@
             {{ content }}
 
         </section>
-        <section id="company-address">
+        <section id="company-address container">
         <div class="margin-top-medium bg-primary text-white section-d">
             <div class="row">
                 <div class="col-md-8">{% include enquiry.html %}</div>
-                <div class="col-md-4 padding-Small">
+                <div class="col-md-4 padding-Large">
                     <label>Address</label>
                     <address>{{ site.data.company.address | replace: ',', '<br>' }}</address>
                     <h4 class="text-white"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></h4>
@@ -27,7 +27,7 @@
             </div>
         </div>
         </section>
-        <footer>
+        <footer >
             <div>
                 {% include footer.html %}
             </div>

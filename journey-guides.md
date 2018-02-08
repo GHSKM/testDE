@@ -11,7 +11,7 @@ permalink: /guides/
                 <h4> <b> {{ guide.title }} </b></h4>
                  <h5>  {{ guide.excerpt  }}</h5>                
                 <p>{{ guide.description }}</p>
-                  <p><a href="{{ guide.url }}" class="btn btn-info" role="button">View More</a> </p>
+                  <p><a href="{{ site.baseurl }}{{ guide.url }}" class="button" role="button">View More</a> </p>
             </div>
           </div>
         </div>

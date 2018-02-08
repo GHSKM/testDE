@@ -217,9 +217,12 @@
             background-size: cover;
         }
 
-.pull-left
+.pull-lefty
 {
-    margin-left:-30px;
+    @media (min-width: $mobile-break) {
+		margin-left:-30px;
+	}
+
 }
 
 .normal-text a {

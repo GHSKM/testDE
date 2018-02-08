@@ -1,15 +1,11 @@
 {% assign category =  include.category %}
 {% assign limit =  include.limit %}
 {% assign guided =  include.IsGuided %}
-{% assign package = site.journeys | where:"categories", category %}
-{% if guided  %}
-  {% assign packages = package | where: "guided", "true" %}
+{% if guided=="true"  %}
+  {% assign packages = site.journeys | where: "guided", true %}
   {% else %}
-  {% assign packages = package | where: "guided", "false" %}
+  {% assign packages = site.journeys | where: "guided", false %}
 {% endif %}
-
-
-{{packages.count}}
     {% for journey in packages |limit: limit  %}
      
     <div  id="{{ include.Name | slugify }}" class="col-md-6 col-sm-6">

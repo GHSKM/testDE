@@ -10,8 +10,8 @@ journey-description: What is Enlightenment?<br>Secrets of sustained Enlightenmen
   / Dynamics of “Divine Grace” (Guru-Kripa)<br>Atma-vyapti to Shiv-vyapti (Enlightenment
   to Liberation)<br><em>Nirvikalpa Samadhi</em> – <em>Ek Aparoksha Anubhuti</em> (An
   indirect – Experience-less Experience) 
-thumbnail: "/images/babaji-cave-170x150.jpg"
-image: "/images/babaji-cave.jpg"
+thumbnail: "/images/GuidedThumb.jpg"
+image: "/images/GuidedMain.jpg"
 guided: true
 map-image: ''
 journey-experience:

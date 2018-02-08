@@ -1,7 +1,7 @@
 ---
 layout: package
-thumbnail: "/images/babaji-cave-170x150.jpg"
-image: "/images/babaji-cave.jpg"
+thumbnail: "/images/GuidedThumb.jpg"
+image: "/images/GuidedMain.jpg"
 map-image: ""
 title: Om Prem Sangha’s pilgrimage to Mahavatar Babaji’s cave
 date: 2018-01-16 00:00:00 +0000
