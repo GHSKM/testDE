@@ -5,7 +5,7 @@ image: "/images/amarnath.jpg"
 map-image: "/images/Amarnath-route-map-470x244.jpg"
 title: Amarnath Yatra - A spiritual journey of self purification
 date: 2018-01-16 00:00:00 +0000
-categories: [Popular]
+categories: [Popular,Divine]
 author: admin
 journey-highlights:
   -  Conscious Contemplation sharings with the group unparalleled 

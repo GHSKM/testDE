@@ -5,7 +5,7 @@ image: "/images/chardham-banner.jpg"
 map-image: "/images/char-dham-map-624x495.gif"
 title: Chardham Yatra (The Sacred Pilgrimage in the Garhwal Mountains )
 date: 2018-01-16 00:00:00 +0000
-categories: [Concious Contemplations, Energy Spots, Pilgrimage]
+categories: [Divine,Concious Contemplations, Energy Spots, Pilgrimage]
 author: admin
 journey-highlights:
   -  Holy dips in the thermal springs

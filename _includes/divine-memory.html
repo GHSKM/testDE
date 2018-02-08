@@ -1,16 +1,17 @@
+{% assign limit =  include.limit %}
+
 <div class="row">
     <div class="col-md-12">
-        <h2 class="text-primary border-bottom-thick padding-small "><b>Divine Memories</b></h2>
+        <h2 class="text-primary border-bottom-thick padding-Medium "><b>Divine Memories</b></h2>
     </div>
 </div>
 
 <div class="row">    
-        {% for memory in site.divine-memories | limit: 2 %}       
-                <div class="col-md-12" id="{{ include.Name | slugify }}">              
+        {% for memory in site.divine-memories | limit: limit %}       
+                <div class="col-md-12 section-b" id="{{ include.Name | slugify }}">              
                     <div class="text-secondary"> <b><h3>{{ memory.title }}</h3></b></div>
                      <h4>{{ memory.excerpt  }}</h4>
                      <p> - {{ memory.author  }}</p>   
                 </div>
     {% endfor %}
-    <p><a href="divine-memories" class="button" role="button">View More</a> </p>
-    </div>
+</div>
