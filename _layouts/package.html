@@ -59,10 +59,11 @@ layout: default
         </div>
         <div class="col-md-4 col-xs-12 padding-Small ">
                 <p><a href="{{site.baseurl}}/faq" class="button" role="button"> Journey FAQ</a> </p>
-            {% if page.map-image %}
-                <p><img src="{{site.baseurl}}/{{page.map-image}}" alt="{{page.title}}"/></p>
-            {% endif %}
-                <p class="bg-gray text-primary"><img src="{{site.baseurl}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Highlights</p>
+             
+            {% unless page.map-image == blank %}
+                                       <p><img src="{{site.baseurl}}{{page.map-image}}" alt="{{page.title}}" class="img-responsive"/></p>
+            {% endunless %}
+                <p class="bg-gray text-primary"><img src="{{site.baseurl}}/images/tour_benefits.png" alt="{{page.title}}" class="img-responsive"/><b>Journey</b> Highlights</p>
                 <!-- <p>{{page.journey-highlights}}</p> -->
 
                 {% for highlight in page.journey-highlights %}
