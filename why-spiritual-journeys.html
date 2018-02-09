@@ -1,12 +1,16 @@
 ---
 layout: default
-header_image_path : /images/spiritual_master.jpg
+header_image_path : /images/spiritual_masterMain.jpg
 show_in_navigation: true
 navigation_order: 4
 ---
 <div class="padding-Large container">
 	<div class="row">
 		<div class="col-md-12">
+            <picture>
+                    <source media="(min-width: 768px)" srcset="{{ site.baseurl }}{{page.header_image_path}}" class="img-responsive" >
+                    <img src="{{ site.baseurl }}/images/spiritual_master-470x120.jpg" class="img-responsive">
+                </picture>
 			<img src= "{{page.header_image_path}}" alt="spiritual">
 		</div>
 

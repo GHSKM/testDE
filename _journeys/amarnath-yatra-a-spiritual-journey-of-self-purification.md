@@ -1,6 +1,6 @@
 ---
 layout: package
-thumbnail: "/images/amarnath-470x118.jpg"
+thumbnail: "/images/amarnath_thumb.jpg"
 image: "/images/amarnath.jpg"
 map-image: "/images/Amarnath-route-map-470x244.jpg"
 title: Amarnath Yatra - A spiritual journey of self purification

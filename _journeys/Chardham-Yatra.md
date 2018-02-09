@@ -1,7 +1,7 @@
 ---
 layout: package
-thumbnail: "/images/chardham.jpg"
-image: "/images/chardham-banner.jpg"
+thumbnail: "/images/chardhamThumb.jpg"
+image: "/images/chardhamMain.jpg"
 map-image: "/images/char-dham-map-624x495.gif"
 title: Chardham Yatra (The Sacred Pilgrimage in the Garhwal Mountains )
 date: 2018-01-16 00:00:00 +0000

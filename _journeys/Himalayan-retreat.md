@@ -1,7 +1,7 @@
 ---
 layout: package
-thumbnail: "/images/rishikesh.jpg"
-image: "/images/rishikesh.jpg"
+thumbnail: "/images/HimalayaThumb.jpg"
+image: "/images/HimalayaMain.jpg"
 map-image: ""
 title: Himalayan Retreat – Journey from self to SELF
 date: 2018-01-16 00:00:00 +0000
