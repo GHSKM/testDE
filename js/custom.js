@@ -32,23 +32,23 @@
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.section-a', {
-        duration: 2000,
+        duration: 1700,
         scale: 0.9,
         origin: 'left',
         distance: '10px',
 
     }, 200);
     sr.reveal('.section-b', {
-        duration: 2000,
+        duration: 1700,
         delay: 200
     });
     sr.reveal('.section-c', {
-        duration: 2000,
+        duration: 1700,
         scale: 0.3,
         distance: '0px'
     }, 300);
     sr.reveal('.section-d', {
-        duration: 2000,
+        duration: 1700,
         scale: 0.3,
         distance: '0px'
     }, 300);
