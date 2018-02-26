@@ -4,7 +4,6 @@ label {
 	font-size: 1.5rem;
 }
 
-
 .btn,
 input,
 textarea {
@@ -25,24 +24,6 @@ textarea {
 	min-height: $textarea-size;
 }
 
-// input[type=submit] {
-// 	display: block;
-// }
-
-// input[type=submit],
-// .btn {
-// 	padding: 10px 15px;
-// 	margin: 0;
-// 	background-color: #4489b1;
-// 	font-size: 2rem;
-// 	color: $brand-primary;
-// 	cursor: pointer;
-
-// 	&:hover {
-// 		color: #fefefe;
-// 		background-color:$brand-primary;
-// 	}
-// }
 .btn, input[type="submit"] {
 	background: #fff;
 	cursor: pointer;
@@ -52,10 +33,7 @@ textarea {
 	display: inline-flex;
   align-items: flex-end;
 	margin: 0;
-	font-size: 1em;
-	// margin-top: 10px;
- 	// padding-top: 10px;
-	// padding-bottom: 10px;
+	font-size: 1em;	
 	
 	&:hover {
 		background:$brand-primary;
@@ -112,97 +90,13 @@ a{
 		}
 	}
 
-// input[type="submit"] {
-// 	margin-top: 10px;
-// 	padding-top: 10px;
-// 	padding-bottom: 10px;
-// }
 
 
 
-/*.navbar-default {
-	background-color: $brand-primary;
-	border-color: rgba(34, 34, 34, 0.05);
-	-webkit-transition: all 0.35s;
-	-moz-transition: all 0.35s;
-	transition: all 0.35s;
-  }
-  .navbar-default .navbar-header .navbar-brand {
-	color: white;
-	font-weight: 600;
-	text-transform: uppercase;
-	font-size: 1.5em;
-  }*/
 
-  // .navbar-default .navbar-header .navbar-toggle {
-	// font-weight: 700;
-	// font-size: 1.5em;
-	// color: #222222;
-	// text-transform: uppercase;
-  // }
-//   .navbar-default .nav > li > a,
-//   .navbar-default .nav > li > a:focus {
-// 	text-transform: uppercase;
-// 	font-weight: 700;
-// 	font-size: 1.5em;
-// 	color: #222222;
-//   }
-//   .navbar-default .nav > li > a:hover,
-//   .navbar-default .nav > li > a:focus:hover {
-// 	color: #872E8B;
-//   }
-  // .navbar-default .nav > li.active > a,
-  // .navbar-default .nav > li.active > a:focus {
-	// color: #872E8B !important;
-	// background-color: transparent;
-  // }
-  /*.navbar-default .nav > li.active > a:hover,
-  .navbar-default .nav > li.active > a:focus:hover {
-		color: $brand-secondary;
-  }*/
+
   @media (min-width: 768px) {
-	/*.navbar-default {
-	  background-color: transparent;
-		border-color: rgba(255, 255, 255, 0.3);
-		border-bottom: 3px solid $brand-primary;
-		color: $brand-primary;
-	}*/
-	// .navbar-default .navbar-header .navbar-brand {
-	//   color: rgba(255, 255, 255, 0.7);
-	// }
-	// .navbar-default .navbar-header .navbar-brand:hover,
-	// .navbar-default .navbar-header .navbar-brand:focus {
-	//   color: white;
-	// }
-	/*.navbar-default .nav > li > a,
-	.navbar-default .nav > li > a:focus {
-		padding-top: 10px;
-	  color: $brand-primary;
-	}*/
-	// .navbar-default .nav > li > a:hover,
-	// .navbar-default .nav > li > a:focus:hover {
-	//   color: white;
-	// }
-	/*.navbar-default.affix {
-	  background-color: white;
-	  border-color: rgba(34, 34, 34, 0.05);
-	}
-	.navbar-default.affix .navbar-header .navbar-brand {
-	  color: $brand-primary;
-	  font-size: 1.2em;
-	}
-	.navbar-default.affix .navbar-header .navbar-brand:hover,
-	.navbar-default.affix .navbar-header .navbar-brand:focus {
-	  color: $brand-secondary;
-	}
-	// .navbar-default.affix .nav > li > a,
-	// .navbar-default.affix .nav > li > a:focus {
-	//   color: #222222;
-	// }
-	.navbar-default.affix .nav > li > a:hover,
-	.navbar-default.affix .nav > li > a:focus:hover {
-	  color: $brand-primary;
-	}*/
+	
   }
 .nav-tabs 
 {
@@ -236,22 +130,6 @@ a{
   color: $light-grey;
   opacity: 1;
 }
-
-
-// .contain {
-// 	border: 0;
-// 	background: 0;
-// 	padding: 0;
-// 	margin: 0;
-// 	display: flex;
-// 	flex-wrap: wrap;
-// 	justify-content: space-between;
-
-// 	.split {
-// 		flex: 0 0 380px;
-// 	}
-// }
-
 select {
 	width: 100%;
 	padding: 20px;
@@ -280,19 +158,19 @@ ul li{
     border-top: 6px solid $brand-secondary;
     background-color: #fff;
     margin: 0 1rem 0 0;
-    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    box-shadow: 5px 5px 20px 0 rgba(46,61,73,.2);
     border-radius: .375rem;
     padding: 0 1.5rem 3rem;
   
 }
 #main-Packages .thumbnail {
-    height: 400px;
+    height: auto;
    
 }
 .thumbnail img {
     display: block;
     width:100%;
-		height: 150px;
+		height: 200px;
 	  object-fit: cover;
 }
 	.thumbnail img.not-package {
@@ -301,6 +179,13 @@ ul li{
 		height: 250px;
 }
 
+
+#aboutDE .nav
+{
+	display: flex;
+	flex-flow: row;
+justify-content: center;
+}
 	
 
 //Alternate Design

@@ -1,8 +1,8 @@
 ---
 layout: default 
 ---
-<div class="container">
-    <section id="hero">
+<div>
+    <section id="hero container">
         <div class="row">
             <div class="col-md-8">
                 <picture>
@@ -51,8 +51,8 @@ layout: default
         </div>
     </section>
     <div class="border-bottom padding-Top-Medium"></div>
-    <section id="whyDE" class="section-c">
-        <div class="row padding-Medium">
+    <section id="whyDE">
+        <div class="row padding-Large">
             <div class="col-md-7 ">
                 <h2 class="text-primary border-bottom-thick padding-Medium"><b>Why Spiritual Journeys</b></h2>
                 <div class="row">
@@ -69,10 +69,21 @@ layout: default
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 padding-Medium box">
-                {% include divine-memory.html limit="2"%}
-                <div class="container">
-                    <a href="divine-memories" class="button" role="button">View More</a>
+            <div class="col-md-5 box margin-top-medium">               
+        <h2 class="text-primary border-bottom-thick"><b>Divine Memories</b></h2>
+ 
+               <div class="row">    
+        {% for memory in site.divine-memories | limit:"2" %}       
+                <div class="col-md-12" id="{{ include.Name | slugify }}">              
+                    <div class="text-secondary"> <b><h3>{{ memory.title }}</h3></b></div>
+                     <h4>{{ memory.excerpt  }}</h4>
+                     <p> - {{ memory.author  }}</p>   
+                </div>
+    {% endfor %}
+</div>
+            </div>
+                <div>
+                    <a href="{{site.baseurl}}divine-memories" class="button" role="button">View More</a>
                 </div>
             </div>
         </div>

@@ -78,23 +78,6 @@ exclude:
   - README.md
   - LICENCE
 
-# -----------
-# CloudCannon
-
-call_to_actions:
-  - Contact
-  
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
 
 _comments:
   large_header: Toggles the size of the top banner.

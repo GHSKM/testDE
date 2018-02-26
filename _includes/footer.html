@@ -1,14 +1,15 @@
-<div class="row bg-black txt-white padding-Medium">
-    <div class="col-md-8">
-        {% for column in site.data.footer %} {% for link in column.links %}
-        <a {% if link.new_window %} target="_blank" {% endif %} href="{% include relative-src.html src=link.link %}">
-                    
-                                                        {{ link.name }}
-                        </a>
-        </br>
+<div>
+    <div class="row bg-black txt-white padding-Medium">
+        <div class="col-md-8">
+            {% for column in site.data.footer %} {% for link in column.links %}
+            <a {% if link.new_window %} target="_blank" {% endif %} 
+            href="{% include relative-src.html src=link.link %}">
+             {{ link.name }}
+             </a>
+            </br>
+            {% endfor %} {% endfor %}
+        </div>
 
-        {% endfor %} {% endfor %}
+        <div class="col-md-4">{% include signUp.html %}</div>
     </div>
-
-    <div class="col-md-4 padding-Small">{% include signUp.html %}</div>
-    </div>
+</div>
