@@ -44,6 +44,11 @@
         position: relative;
         background-color: white;
     }
+    .absolutePostion
+    {
+        position: absolute;
+        background-color: white;
+    }
 .padding-Top-Medium {
     padding-top: 40px;
 }
@@ -219,10 +224,22 @@
 
 .pull-lefty
 {
-    @media (min-width: $mobile-break) {
-		margin-left:-40px;
+    margin-left:-80px;
+    @media (max-width: $mobile-break) {
+		margin-left:0px;
 	}
 
+}
+.pull-down
+{
+    // position: absolute;
+   top: 650px;
+    bottom:0px;
+    // margin: 0 auto;
+    @media (min-width: $mobile-break) {
+        bottom: auto;
+        top: auto;
+	}
 }
 
 .normal-text a {
