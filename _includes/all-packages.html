@@ -8,7 +8,7 @@
 {% endif %}
     {% for journey in packages |limit: limit  %}
      
-    <div  id="{{ include.Name | slugify }}" class="col-md-6 col-sm-6">
+    <div class="col-md-6 col-sm-12">
           <div class="thumbnail card text-center card-img-top mt-3">       
             <img src= "{{site.baseurl}}{{ journey.thumbnail }}" alt="{{ journey.title }}">
               <div class="card-body">

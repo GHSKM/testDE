@@ -2,15 +2,15 @@
 layout: default 
 ---
 <section id="hero" class="container-fluid">
-    <div class="row d-flex align-items-center">
-        <div class="col-md-8 col-sm-12">
+    <div class="row align-items-center">
+        <div class="col-md-7 col-sm-11">
             <picture>
-                <source media="(min-width: 768px)" srcset="{{ site.baseurl }}/images/HeaderMain.jpg" class=" mx-auto d-block img-responsive">
-                <img src="{{ site.baseurl }}/images/HeaderMain_M.jpg" class=" mx-auto d-block img-responsive">
+                <source media="(min-width: 768px)" srcset="{{ site.baseurl }}/images/HeaderMain.jpg" class=" mx-auto d-block img-fluid" >
+                <img src="{{ site.baseurl }}/images/HeaderMain_M.jpg" class=" mx-auto d-block img-fluid"  alt="Divine Holidays">
+                <source media="(max-width: 500px)" srcset="{{ site.baseurl }}/images/HeaderMain_T.jpg" class=" mx-auto d-block img-fluid">
             </picture>
         </div>
         <div class="col-md-4">
-
             <h2 class="text-primary text-center">Who is Divine Explorer</h2>
             <h4 class="p-2">We are team of spiritual seekers who combine learning spiritual wisdom with travel as we explore sacred energy
                 spots or new destinations with a purpose to grow in wisdom.We invite you to become a part of Divine Explorer
@@ -21,7 +21,7 @@ layout: default
 </section>
 
 <!--Popular Packages-->
-<section id="main-Packages" class="section-a">
+<section id="main-Packages" class="section-a mt-4">
     <div class="row" id="Guided">
         <div class="col-md-3 normal-text">
             <a href="{{site.baseurl}}explore">
@@ -31,11 +31,11 @@ layout: default
             </a>
         </div>
 
-        <div class="col-md-9 d-flex">
+        <div class="col-md-9 d-md-flex justify-content-sm-center flex-md-row flex-sm-column">
             {% include all-packages.html category="Popular" limit="2" IsGuided="true" %}
         </div>
     </div>
-    <div class="row section-b" id="SelfGuided">
+    <div class="row pt-3 section-b" id="SelfGuided">
 
         <div class="col-md-3 normal-text">
             <a href="{{site.baseurl}}explore">
@@ -44,7 +44,7 @@ layout: default
                 <h3>Guided</h3>
             </a>
         </div>
-        <div class="col-md-9 d-flex">
+        <div class="col-md-9 d-md-flex justify-content-sm-center flex-md-row flex-sm-column">
             {% include all-packages.html category="Popular" limit="2" IsGuided="false" %}
         </div>
     </div>
@@ -58,7 +58,7 @@ layout: default
             </h2>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="{{site.baseurl}}/images/why_sp_travel.jpg" alt="Divine Traveller" class="mx-auto d-block">
+                    <img src="{{site.baseurl}}/images/why_sp_travel.jpg" alt="Divine Traveller" class="mx-auto d-block img-fluid">
                 </div>
                 <div class="col-md-6 p-3">
                     <ul>

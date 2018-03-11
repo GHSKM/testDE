@@ -44,11 +44,6 @@ h5,
 h6 {
 	margin: 0;
 	letter-spacing: 0.04em;
-
-
-	// &:not(:first-child) {
-	// 	margin-top: 0.5em;
-	// }
 }
 
 h1, .h1 {
@@ -56,11 +51,6 @@ h1, .h1 {
 	line-height: 1.05;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 	font-weight: 600;
-
-	// @media (min-width: $mobile-break) {
-	// 	line-height: 100px;
-	// 	font-size: em;
-	// }
   }
   
   h2, .h2 {
