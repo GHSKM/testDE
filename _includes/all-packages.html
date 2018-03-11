@@ -9,12 +9,12 @@
     {% for journey in packages |limit: limit  %}
      
     <div  id="{{ include.Name | slugify }}" class="col-md-6 col-sm-6">
-          <div class="thumbnail text-center margin-top-medium">       
-            <img src= "{{site.baseurl}}{{ journey.thumbnail }}" alt="">
-              <div class="caption">
-                <h4 class="text-primary"> <b>{{ journey.title }}</b> </h4>                           
-                <p>{{ journey.excerpt }}</p>
-                  <p><a href="{{site.baseurl}}{{ journey.url }}" class="button" role="button">View More</a> </p>
+          <div class="thumbnail card text-center card-img-top mt-3">       
+            <img src= "{{site.baseurl}}{{ journey.thumbnail }}" alt="{{ journey.title }}">
+              <div class="card-body">
+                <h4 class="card-title text-primary"> <b>{{ journey.title }}</b> </h4>                           
+                <p class="card-text">{{ journey.excerpt }}</p>
+                  <a href="{{site.baseurl}}{{ journey.url }}" class="button" role="button">View More</a>
             </div>
           </div>
         </div>

@@ -1,26 +1,27 @@
 ---
 layout: default
 --- 
-<div class="row ">
+<div class="row">
     <div class="col-md-12">
         <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" class="fullWidth jumboHeight">
     </div>
     
 </div>
 <hr>
-<div class="margin-bottom-small">
-    <div class="row relativePostion">
-         <div class="col-md-8 thinBorder padding-Large section-a">
+<div class="mb-2 container">
+    <div class="row">
+         <div class="col-md-8 thinBorder box p-5">
                 
-            <p><strong>{{page.journey-description}}</strong></p>
-            <div id="#places-covered">
-                    <p class="text-primary"><img src="{{site.baseurl}}/images/places_covered.png" alt="{{page.title}}"/><b>Places</b> Covered</p>
+            <h4>{{page.journey-description}}</h4>
+            <div class="separator"></div>
+            <div id="#places-covered" class="py-3">
+                    <h3 class="text-primary"><img src="{{site.baseurl}}/images/places_covered.png" alt="{{page.title}}"/><b>Places</b> Covered</h3>
                     </div>
             {{ content }}
 
             <div class="separator"></div>
-            <div id="#Journey-guides">
-                    <p class="text-primary"><img src="{{site.baseurl}}/images/spiritual_master.png" alt="{{page.title}}"/><b>Journey</b> guides</p>
+            <div id="#Journey-guides" class="py-3">
+                    <h3 class="text-primary"><img src="{{site.baseurl}}/images/spiritual_master.png" alt="{{page.title}}"/><b>Journey</b> guides</h3>
                     {% if page.guided %}
                         <p>
                                 Guruji Prem Nirmal and Guruma Bharti Ji guide us through this transforming journey as we understand how to merge materialism and spirituality and live a life of abundance.
@@ -44,14 +45,14 @@ layout: default
                             {% endif %}
             </div>
 
-            <div class="separator padding-Medium"></div>
-            <div id="#Journey-experience">
-                    <p class="text-primary"><img src="{{site.baseurl}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Experience</p>
+            <div class="separator"></div>
+            <div id="#Journey-experience" class="py-3">
+                    <h3 class="text-primary"><img src="{{site.baseurl}}/images/tour_benefits.png" alt="{{page.title}}"/><b>Journey</b> Experience</h3>
                     {% for experience in page.journey-experience %}
-                    <ul>
-                          <li>{{ experience }}</li>	
+                    
+                          <p>{{ experience }}	</p>
     
-                    </ul>	
+                 
                           
                     {% endfor %}
             </div>
