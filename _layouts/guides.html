@@ -4,11 +4,10 @@ layout: default
 
 <div class="row thinBorder p-3">
         <div class="col-md-4">
-            <img src="{{ page.thumbnail }}" alt="{{ page.title }}" class="img-fluid">
+            <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
         </div>
 
-        <div class="col-md-8 p-3">
+        <div class="col-md-8">
             {{content}}
         </div>
-    
-    </div>
+</div>
