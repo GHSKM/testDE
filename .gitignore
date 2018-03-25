@@ -4,3 +4,6 @@ _site/
 node_modules/
 bower_components/
 .vs
+package.json
+package-lock.json
+npm-debug.log

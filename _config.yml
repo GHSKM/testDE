@@ -2,7 +2,7 @@
 # Site
 
 title: Divine Explorer
-url: "https:ghskm.github.io/testDE"
+url: "https:ghskm.github.io/testDE/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -18,7 +18,7 @@ author:
 social:
   name: Divine Explorer
   links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+    - https://github.com
 
 # -----
 # Build
@@ -78,6 +78,18 @@ exclude:
   - README.md
   - LICENCE
 
+# sass:
+#   style: compressed  
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]  
 
 _comments:
   large_header: Toggles the size of the top banner.

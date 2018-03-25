@@ -1,5 +1,5 @@
 {
-  "name": "Divine_Explorer",
+  "name": "DivineExplorer",
   "version": "1.0.0",
   "description": "Holiday Planners",
   "main": "gulpfile.js",
@@ -9,11 +9,29 @@
   "author": "August Web Solutions",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-jade": "^1.1.0",
+    "browser-sync": "*",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
     "gulp-clean-css": "*",
-    "gulp-sass": "^3.1.0"
+    "gulp-concat": "*",
+    "gulp-download": "0.0.1",
+    "gulp-image-resize": "^0.6.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-postcss": "*",
+    "gulp-replace": "^0.5.3",
+    "gulp-sass": "*",
+    "gulp-shell": "^0.4.1",
+    "gulp-uglify": "*",
+    "imagemin-gifsicle": "^4.1.0",
+    "imagemin-jpegtran": "^4.1.0",
+    "imagemin-pngquant": "^4.1.0",
+    "postcss-uncss": "^0.16.1",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "imagemin": "^5.3.1",
+    "uncss": "^0.16.2"
   }
 }

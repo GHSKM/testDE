@@ -1,38 +1,75 @@
-var gulp        = require('gulp');
+const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var jpegtran = require('imagemin-jpegtran');
 var browserSync = require('browser-sync');
-var sass        = require('gulp-sass');
-var prefix      = require('gulp-autoprefixer');
-var cp          = require('child_process');
-var jade        = require('gulp-jade');
+var shell = require('gulp-shell');
+var runSequence = require('run-sequence');
+var minifyCss = require('gulp-clean-css');
+var postcss = require('gulp-postcss');
+var uncss=require('postcss-uncss');
+var uglify = require('gulp-uglify');
+// For joining multiple files into one
+var concat = require('gulp-concat');
+var autoprefixer = require('gulp-autoprefixer');
+var gifsicle = require('imagemin-gifsicle');
+ 
+
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-/**
- * Build the Jekyll Site
- */
-gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
-   var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-   // return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-   return cp.spawn("jekyll.bat", ['build'], {stdio: 'inherit'}).on('close', done);// to update the site folder with the latest index file
-   //return cp.exec('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
-        //.on('close', done)
-       // .on('error',function(err){ throw "somethin"});
+gulp.task('optimize-Img',function () { return gulp.src(['images/**/*.jpg', 'images/**/*.jpeg', 'images/**/*.gif', 'images/**/*.png'])
+.pipe(imagemin({
+    progressive: false,
+    svgoPlugins: [{removeViewBox: false}],
+    use: [pngquant(), jpegtran(), gifsicle()]
+}))
+.pipe(gulp.dest('images/'));
 });
 
-/**
- * Rebuild Jekyll & do page reload
- */
+
+gulp.task('optimize-css', function() {
+    var plugins = [
+        uncss({
+            html: ['_site/**/*.html']
+        }),
+    ];
+    return gulp.src('/css/main.css')
+        .pipe(autoprefixer())
+        .pipe(postcss(plugins))
+        .pipe(minifyCss({keepBreaks: false}))
+        .pipe(gulp.dest('/css/'));
+ });
+
+
+gulp.task('jekyll-build', function() {
+    browserSync.notify(messages.jekyllBuild);
+    return gulp.src('index.html', { read: false })
+        .pipe(shell([
+            'jekyll build'
+        ]));
+});
+
+gulp.task('deploy', function(callback) {
+    runSequence(
+   //     'fetch-newest-analytics',
+    //    'jekyll',
+       'optimize-Img',
+       'optimize-css',
+       callback
+   );
+});
+
+
+
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-/**
- * Wait for jekyll-build, then launch the Server
- */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+
+gulp.task('browser-sync', ['jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -40,49 +77,10 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     });
 });
 
-/**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
- */
-gulp.task('sass', function () {
-    return gulp.src('assets/less/variables.scss')
-        .pipe(sass({
-            includePaths: ['css'],
-            onError: browserSync.notify
-        }))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/assets/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
-});
-
-/**
- * Trying to use jade in my jekyll site using gulp!
- */
-
- /*gulp.task('jade', function()
- {
-     return gulp.src('_jadeFiles/*.jade')//tell gulp to go and get some jade files
-     .pipe(jade({
-         pretty: true
-     }))//the variable declared above tht links to the gulp-jade
-     .pipe(gulp.dest('_includes')).pipe(browserSync.reload({stream:true}));    
- });*/
-
-
-
-
-/**
- * Watch scss files for changes & recompile
- * Watch html/md files, run jekyll & reload BrowserSync
- */
 gulp.task('watch', function () {
-    gulp.watch(['assets/css/variables.scss'], ['sass']);
+    gulp.watch(['css/main.css']);
     //gulp.watch(['_jadeFiles/*.jade'],['jade']);
-    gulp.watch(['index.html','*.md', '_layouts/*.html','_includes/*.html','_posts/*','assets/css/custom.css'], ['jekyll-rebuild']);
+    gulp.watch(['index.html','*.md', '_layouts/*.html','_includes/*.html','_posts/*','css/main.css'], ['jekyll-rebuild']);
 });
 
-/**
- * Default task, running just `gulp` will compile the sass,
- * compile the jekyll site, launch BrowserSync & watch files.
- */
 gulp.task('default', ['browser-sync', 'watch']);
