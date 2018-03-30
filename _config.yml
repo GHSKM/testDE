@@ -2,9 +2,9 @@
 # Site
 
 title: Divine Explorer
-url: "https:ghskm.github.io/testDE/"
+url: "https:divineexplorer.com/"
 baseurl:
-google_analytics_key:
+google_analytics_key: "UA-116680836-1"
 google_maps_javascript_api_key:
 disqus_shortname:
 newsletter_action: "https://Augustwebsolutions.us17.list-manage.com/subscribe/post?u=e5156bc6b62aea6436d56bac0&amp;id=74d98af065"
@@ -42,9 +42,9 @@ defaults:
     scope:
       path: ""
     values:
-      layout: page
-      background_image_path: /uploads/building.jpg
-      image: /uploads/building.jpg
+      layout: default
+      background_image_path: 
+      image: 
   -
     scope:
       path: ""
@@ -88,7 +88,7 @@ compress_html:
   ignore:
     envs: [local]
   blanklines: false
-  profile: true
+  profile: false
   startings: [html, head, body]  
 
 _comments:
